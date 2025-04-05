@@ -1,0 +1,36 @@
+Dependencies for Project 'exemplo', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x645A384F)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129--pd "__UVISION_VERSION SETA 536" --pd "TM4C1294NCPDT SETA 1"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\utils.s)(0x642C1F9C)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129--pd "__UVISION_VERSION SETA 536" --pd "TM4C1294NCPDT SETA 1"--list .\listings\utils.lst --xref -o .\objects\utils.o --depend .\objects\utils.d)
+F (.\main.c)(0x677D5F63)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025BE24)
+I (gpio.h)(0x677ADB64)
+I (matriz_keyboard.h)(0x677C283A)
+I (lcd.h)(0x677975E4)
+I (stepper_motor.h)(0x677C1CBE)
+F (.\tm4c1294ncpdt.h)(0x645A384F)()
+F (.\gpio.c)(0x677C5B37)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (tm4c1294ncpdt.h)(0x645A384F)
+I (gpio.h)(0x677ADB64)
+I (lcd.h)(0x677975E4)
+F (.\matriz_keyboard.c)(0x677C5A80)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\matriz_keyboard.o --omf_browse .\objects\matriz_keyboard.crf --depend .\objects\matriz_keyboard.d)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (F:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025BE2C)
+I (matriz_keyboard.h)(0x677C283A)
+I (gpio.h)(0x677ADB64)
+I (lcd.h)(0x677975E4)
+F (.\matriz_keyboard.h)(0x677C283A)()
+F (.\lcd.c)(0x677978FC)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (gpio.h)(0x677ADB64)
+I (lcd.h)(0x677975E4)
+F (.\gpio.h)(0x677ADB64)()
+F (.\lcd.h)(0x677975E4)()
+F (.\stepper_motor.c)(0x677C683D)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Users\bruno\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\stepper_motor.o --omf_browse .\objects\stepper_motor.crf --depend .\objects\stepper_motor.d)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (F:\Keil_v5\ARM\ARMCC\include\math.h)(0x6025BE28)
+I (stepper_motor.h)(0x677C1CBE)
+I (tm4c1294ncpdt.h)(0x645A384F)
+F (.\stepper_motor.h)(0x677C1CBE)()
